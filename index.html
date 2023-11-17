@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web for Education</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- akhir bootstrap -->
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- akhir icon -->
+</head>
+
+<body>
+    <!-- awal nav -->
+    <nav class="navbar shadow navbar-dark navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="30"
+                    height="30" fill="white" class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+                    <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
+                </svg></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" aria-current="page" href="https://scratch.mit.edu">Scratch</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" href="#">Project</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" href="#">Asessment</a>
+                    </li>
+                    <li id="dropdown-material" class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Material
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="block-motion.html">Block Motion</a></li>
+                            <li><a class="dropdown-item" href="block-looks.html">Block looks</a></li>
+                            <li><a class="dropdown-item" href="block-sound.html">Block Sound</a></li>
+                            <li><a class="dropdown-item" href="block-event.html">Block Events</a></li>
+                            <li><a class="dropdown-item" href="block-control.html">Block Control</a></li>
+                            <li><a class="dropdown-item" href="block-sensing.html">Block Sensing</a></li>
+                            <li><a class="dropdown-item" href="block-operator.html">Block Operators</a></li>
+                            <li><a class="dropdown-item" href="block-variable.html">Block Variables</a></li>
+                            <li><a class="dropdown-item" href="my-block.html">My Blocks</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="extention.html">Extension</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- akhir nav -->
+
+    <!-- header -->
+    <div class="header">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col text-end pe-4 pt-4">
+                    <img src="img/logo unesa png baru.png" alt="logo unesa">
+                </div>
+                <div class="col text-start ps-4 pt-4">
+                    <img src="img/logo SIS KG.png" alt="logo SIS">
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-3">
+            <div class="row text-center">
+                <div class="col">
+                    <p class="fs-1 fw-bolder text-black"> <span class="learning">Learning</span> Basic Progamming
+                        with
+                        <span class="text-warning">Scratch</span>
+                    </p>
+                    <p class="fs-4 text-capitalize pt-2 text-dark"> Learning how to Design game with scratch
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-activity"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" />
+                        </svg>
+                    </p>
+                </div>
+            </div>
+            <div class="row text-center position-relative">
+                <div class="col position-relative mt-4">
+                    <div id="el1" class="col bg-opacity-75 text-warning position-absolute rounded-circle shadow"
+                        style="width:17rem; height:17rem; right: 10px;">
+                        <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
+                            xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
+                            class="bi bi-pc-display" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z" />
+                        </svg>
+                    </div>
+                    <div id="el2" class="col text-warning position-absolute rounded-circle shadow"
+                        style="width:17rem; height:17rem; left:10px;">
+                        <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
+                            xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
+                            class="bi bi-code-square" viewBox="0 0 16 16">
+                            <path
+                                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                            <path
+                                d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
+                        </svg>
+                    </div>
+                    <div id="el3"
+                        class="col text-warning position-absolute top-100 start-50 translate-middle-x rounded-circle shadow"
+                        style="width:17rem; height:17rem; margin-top:10rem;">
+                        <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
+                            xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
+                            class="bi bi-lightbulb" viewBox="0 0 16 16">
+                            <path
+                                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--logo bawah  -->
+
+    <!-- akhirlogo bawah  -->
+
+    <!-- akhir header -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <p class="fs-6 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-c-circle" viewBox="0 0 16 16">
+                            <path
+                                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+                        </svg> yash akbar raihan</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- akhir footer -->
+</body>
+
+</html>
