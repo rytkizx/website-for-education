@@ -32,9 +32,8 @@ nav {
     height: 100vh;
     position: relative;
     display: flex;
-    flex-direction: column;
-    /* background: linear-gradient(to top, var(--bg-color2), rgba(0,0,0,0)); */
     background: url('img/background-new.svg');
+    flex-direction: column;
     background-size: cover;
     background-position: center;
 }
