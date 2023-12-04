@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web for Education</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="assets/stylesheet.css">
 
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -38,33 +38,31 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item pe-4">
+                        <a class="nav-link active"
+                            href="https://html-code.notion.site/html-code/the-dashboard-d942aa69af0b4449ad72ffde3d726862">Basic
+                            Website</a>
+                    </li>
+                    <li class="nav-item pe-4">
                         <a class="nav-link active" aria-current="page" href="https://scratch.mit.edu">Scratch</a>
                     </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link active" href="#">Project</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link active" href="#">Asessment</a>
-                    </li>
-                    <li id="dropdown-material" class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Material
+                    <li class="nav-item dropdown pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Quiz
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="block-motion.html">Block Motion</a></li>
-                            <li><a class="dropdown-item" href="block-looks.html">Block looks</a></li>
-                            <li><a class="dropdown-item" href="block-sound.html">Block Sound</a></li>
-                            <li><a class="dropdown-item" href="block-event.html">Block Events</a></li>
-                            <li><a class="dropdown-item" href="block-control.html">Block Control</a></li>
-                            <li><a class="dropdown-item" href="block-sensing.html">Block Sensing</a></li>
-                            <li><a class="dropdown-item" href="block-operator.html">Block Operators</a></li>
-                            <li><a class="dropdown-item" href="block-variable.html">Block Variables</a></li>
-                            <li><a class="dropdown-item" href="my-block.html">My Blocks</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="extention.html">Extension</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://kahoot.it/solo/?quizId=ba9a0a34-03f0-4df1-a1b9-73d56df6748f">Quiz
+                                    1</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://kahoot.it/solo/?quizId=714a203e-d87f-4e3b-9f1b-5200b5b7644c">Quiz
+                                    2</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link active" href="basic-scratch.html">
+                            Basic Scratch
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -74,86 +72,175 @@
     <!-- akhir nav -->
 
     <!-- header -->
-    <div class="header">
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col text-end pe-4 pt-4">
-                    <img src="img/logo unesa png baru.png" alt="logo unesa">
-                </div>
-                <div class="col text-start ps-4 pt-4">
-                    <img src="img/logo SIS KG.png" alt="logo SIS">
+    <section class="header">
+        <div class="header">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col text-end pe-4 pt-4">
+                        <img src="img/logo unesa png baru.png" alt="logo unesa" class="imglogo">
+                    </div>
+                    <div class="col text-start ps-4 pt-4">
+                        <img src="img/SIS-Logo-Website-200x200.png" alt="logo SIS" class="imglogo" id="logosis">
+                    </div>
                 </div>
             </div>
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <p class="fs-1 fw-bolder text-warning"> <span class="learning">Learning</span> Basic Progamming
+                        </p>
+                        <p class="fs-5 text-capitalize text-dark">how to Design game with scratch<br> and
+                            fundamental programming website
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" />
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-center position-relative">
+                    <div class="col position-relative mt-4">
+                        <div id="el1" class="col bg-opacity-75 position-absolute rounded-circle shadow"
+                            style="width:17rem; height:17rem; right: 10px;">
+                            <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
+                                xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
+                                class="bi bi-pc-display" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z" />
+                            </svg>
+                        </div>
+                        <div id="el2" class="col position-absolute rounded-circle shadow"
+                            style="width:17rem; height:17rem; left:10px;">
+                            <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
+                                xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
+                                class="bi bi-code-square" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                <path
+                                    d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
+                            </svg>
+                        </div>
+                        <div id="el3"
+                            class="col position-absolute top-0 start-50 translate-middle-x rounded-circle shadow"
+                            style="width:17rem; height:17rem; margin-top:6rem;">
+                            <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
+                                xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
+                                class="bi bi-lightbulb" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+        <!--logo bawah  -->
 
-        <div class="container pt-3">
-            <div class="row text-center">
-                <div class="col">
-                    <p class="fs-1 fw-bolder text-black"> <span class="learning">Learning</span> Basic Progamming
-                        with
-                        <span class="text-warning">Scratch</span>
-                    </p>
-                    <p class="fs-4 text-capitalize pt-2 text-dark"> Learning how to Design game with scratch
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-activity"
-                            viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" />
-                        </svg>
-                    </p>
-                </div>
-            </div>
-            <div class="row text-center position-relative">
-                <div class="col position-relative mt-4">
-                    <div id="el1" class="col bg-opacity-75 text-warning position-absolute rounded-circle shadow"
-                        style="width:17rem; height:17rem; right: 10px;">
-                        <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
-                            xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
-                            class="bi bi-pc-display" viewBox="0 0 16 16">
-                            <path
-                                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z" />
-                        </svg>
-                    </div>
-                    <div id="el2" class="col text-warning position-absolute rounded-circle shadow"
-                        style="width:17rem; height:17rem; left:10px;">
-                        <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
-                            xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
-                            class="bi bi-code-square" viewBox="0 0 16 16">
-                            <path
-                                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                            <path
-                                d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
-                        </svg>
-                    </div>
-                    <div id="el3"
-                        class="col text-warning position-absolute top-100 start-50 translate-middle-x rounded-circle shadow"
-                        style="width:17rem; height:17rem; margin-top:10rem;">
-                        <svg class="position-absolute bottom-0 start-50 mb-4 translate-middle"
-                            xmlns="http://www.w3.org/2000/svg" width="7rem" height="7rem" fill="white"
-                            class="bi bi-lightbulb" viewBox="0 0 16 16">
-                            <path
-                                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z" />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--logo bawah  -->
+        <!-- akhirlogo bawah  -->
 
-    <!-- akhirlogo bawah  -->
-
+    </section>
     <!-- akhir header -->
+    <!-- section motion -->
+    <section id="motion">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0c1f4a" fill-opacity="1"
+                d="M0,192L48,186.7C96,181,192,171,288,186.7C384,203,480,245,576,240C672,235,768,181,864,160C960,139,1056,149,1152,154.7C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
 
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col text-center">
+                    <h3 class="text-light">Developer</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/alya.jpeg" class="img-fluid " alt="..."
+                                        style="height: 100%; width:100%">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Aaliyah Fakhrani Faliananda</h5>
+                                        <p class="card-text">20010024045</p>
+                                        <p class="card-text">Ms. Alya</p>
+                                        <p class="card-text"><small class="text-body-secondary">Surabaya State
+                                                University</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/foto 4×6.png" class="img-fluid rounded-start" alt="..."
+                                        style="width:100%; height: 100%;">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Diaz Azwad</h5>
+                                        <p class="card-text">20010024043</p>
+                                        <p class="card-text">Mr. Awad</p>
+                                        <p class="card-text"><small class="text-body-secondary">Surabaya State
+                                                University</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/foto 4×6.png" class="img-fluid rounded-start" alt="yash akbar"
+                                        style="width:100%; height: 100%">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Yash Akbar Raihan</h5>
+                                        <p class="card-text">20010024054</p>
+                                        <p class="card-text">Mr. Akbar</p>
+                                        <p class="card-text"><small class="text-body-secondary">Surabaya State
+                                                University</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir section motion -->
+
+    <!-- section looks -->
+
+    <!-- akhir section looks -->
     <!-- footer -->
     <footer>
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center pt-3">
                 <div class="col">
                     <p class="fs-6 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-c-circle" viewBox="0 0 16 16">
                             <path
                                 d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
-                        </svg> yash akbar raihan</p>
+                        </svg> Web Design & Development</p>
                 </div>
             </div>
         </div>
