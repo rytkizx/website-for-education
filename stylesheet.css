@@ -19,8 +19,8 @@ nav {
     color: var(--bg-color4);
 }
 .nav-item:hover {
-    font-size: 1.1em; 
     transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
 }
 
 .col img {
@@ -62,9 +62,8 @@ padding-top: 50vh;
 }
 
 .navbar-brand svg:hover{
-    height: 1.6em;
-    width: 1.6em;
     transition: all 0.1s ease-in-out;
+    transform: scale(1.1);
 }
 
 .dropdown-item:hover {

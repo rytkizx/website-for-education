@@ -15,8 +15,13 @@ nav {
     color: var(--bg-color4);
 }
 .nav-item:hover {
-    font-size: 1.1em; 
+   transform: scale(1.1);
     transition: all 0.2s ease-in-out;
+}
+
+.navbar-brand svg:hover {
+	transition: all ease-in-out ;
+	transform: scale(1.1);
 }
 /* akhir navbar */
 
@@ -3460,10 +3465,7 @@ input, select, textarea {
 				padding: 7em 0 8.25em 0 ;
 				background-color: var(--bg-color1);
 				background: linear-gradient(to top, var(--bg-color6), var(--bg-color2));
-				background-size: auto,
-				background-position: center,
-				margin-bottom: -0.5em;
-				
+				background-size: auto;
 			}
 		}
 		
