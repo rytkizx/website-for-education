@@ -21,9 +21,22 @@
     <!-- icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- akhir icon -->
+
+    <!-- script js -->
+    <script>
+        window.addEventListener("load", () => {
+            const loader = document.querySelector(".loader")
+            loader.classList.add("loader--hidden");
+            document.querySelector(".loader").addEventListener("transitionend", () => {
+                document.body.removeChild(document.querySelector(".loader"))
+            })
+        })
+    </script>
+    <!-- akhir script js -->
 </head>
 
 <body>
+    <div class="loader"></div>
     <!-- awal nav -->
     <nav class="navbar shadow navbar-dark navbar-expand-lg sticky-top">
         <div class="container-fluid">
